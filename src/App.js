@@ -4,7 +4,7 @@ import {Switch, Route} from 'react-router-dom'
 import UserContent from "./Pages/UserContent";
 import SignInPage from "./Components/LoginandSignIn/signInPage";
 import LogInPage from "./Components/LoginandSignIn/logInPage";
-
+import "./index.css"
 
 
 function App() {

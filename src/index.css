@@ -458,13 +458,16 @@ body {
     }
 
     .userContentContainer{
+      display: grid;
+      grid-template-columns: auto auto;
       align-items: center;
-      margin-left: 20px;
+      
       
     }
 
     .userContent{
-      width: 40%;
+      width: 90%;
+      margin-top: 10px;
       
     }
 
