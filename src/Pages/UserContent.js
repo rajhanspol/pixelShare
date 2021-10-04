@@ -7,7 +7,7 @@ function UserContent(){
 
     const authCtx = useContext(AuthContext)
 
-
+    // Check if there is a user loggedin, else redirect to login page
     return (
         <React.Fragment>
             {authCtx.currentUser? null : <Redirect to="/login" />}

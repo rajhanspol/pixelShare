@@ -6,6 +6,7 @@ function DisplayContent(){
 
     const ctx = useContext(Context)
 
+    // map all content
 
     const showImages = ctx.imageContainer.map(item => (
         <div className="userImg">
